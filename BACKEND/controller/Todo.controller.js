@@ -1,7 +1,7 @@
 const { Todo } = require('../models');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-
+// 
 class TodoController{
     static async getTodo(req, res, next){
         try{
